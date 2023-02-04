@@ -1,0 +1,17 @@
+.counter_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.counter_input{
+  display: flex;
+  gap: 20px;
+}
+.title{
+  font-weight: 600;
+  font-size: 26px;
+}
+#count_number{
+  font-size: 26px;
+}
