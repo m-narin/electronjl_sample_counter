@@ -8,5 +8,3 @@ function make_accumulation_image(dataArray)
 	save("../output_images/accumulation_image/$(file_name)", p)
 	return file_name
 end
-
-make_accumulation_image([0])
