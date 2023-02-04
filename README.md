@@ -11,12 +11,13 @@
   * Plots v1.36.0
 
 # Usage
+srcディレクトリに移動後
 
 ```shell
 julia main.jl
 ```
 
-or
+or JuliaのREPLを起動し
 
 ```julia
 include("main.jl")

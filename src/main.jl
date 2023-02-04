@@ -39,7 +39,7 @@ while true
   end
 
   file_name = make_accumulation_image(dataArray)
-  run(win,"setImage(\"output_images/accumulation_image/$(file_name)\");")
+  run(win,"setImage(\"../output_images/accumulation_image/$(file_name)\");")
 
   println("regenerate window")
 
