@@ -22,7 +22,7 @@ dataArray = [0]
 while true
   try 
     global request = take!(ch)
-    println("request: ",request)
+    println("request: $(request)")
   catch 
     println("channle closed")
     break
